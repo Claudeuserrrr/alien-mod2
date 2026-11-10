@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "alienskins",
+  "version": "${version}",
+  "name": "Alien Skins",
+  "description": "Turns every player into a grey alien. The mouth moves when they talk in Simple Voice Chat.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.alienskins.AlienSkinsClient"],
+    "voicechat": ["com.example.alienskins.AlienVoicechatPlugin"]
+  },
+  "mixins": ["alienskins.mixins.json"],
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "~1.21.11", "java": ">=21" },
+  "suggests": { "voicechat": "*" }
+}

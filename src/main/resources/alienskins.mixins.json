@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.alienskins.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["AbstractClientPlayerMixin", "HumanoidModelMixin", "AvatarRendererMixin", "HumanoidArmorLayerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
